@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed';
-import resume from "../data/Nitin's Resume.pdf";
+import resume from "../asset/Nitin's Resume.pdf";
 
 const Header = () => {
     return (
