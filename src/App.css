@@ -40,22 +40,21 @@
 :root{
   --primary-white : #fff;
   --primary-teal : #30879c;
-  --primary-light-teal : #81a5ad;
+  --primary-light-teal : #90b2b9;
   --primary-dark : rgba(255,255,255,0);
   --primary-hover-teal : #46c0df;
 }
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montagu+Slab:wght@200&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Satisfy&family=Teko:wght@300&display=swap');
 body {
   /* font-family: 'Teko', sans-serif; */
-  font-family: 'Caveat', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 /************* Navbar *************/
 nav{
   z-index : 2;
   /* font-family: 'Teko', sans-serif; */
-  font-family: 'Caveat', cursive;
+  font-family: 'Acme', sans-serif;
 }
 .logo {
   width : 10rem;
@@ -119,7 +118,7 @@ nav ul li{
   justify-content : center;
   align-items : center;
   text-align : center;
-  font-family: 'Caveat', cursive;
+  font-family: 'Acme', sans-serif;
   z-index : 1;
 }
 
@@ -148,7 +147,7 @@ nav ul li{
 }
 
 .btn-main-offer{
-  border : 1px solid var(--primary-teal);
+  border : 1.5px solid var(--primary-teal);
   text-transform: uppercase;
   border-radius : 0;
   padding : 0.625rem 0.75rem 0.75rem 0.75rem;

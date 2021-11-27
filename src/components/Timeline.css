@@ -1,5 +1,4 @@
 /********* Timeline *************/
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montagu+Slab:wght@200&family=Teko:wght@300&display=swap');
 /* .timeline-wrapper{
   position : relative;
   margin : 0;
@@ -8,7 +7,7 @@
 } */
 
 .timeline-section{
-    font-family: 'Caveat', cursive;
+    font-family: 'Acme', sans-serif;
       background-color: #24292d27;
       min-height: 100vh;
       padding: 100px 15px;

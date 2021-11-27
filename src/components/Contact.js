@@ -31,6 +31,7 @@ const Contact = () => {
 //   };
 
   return (
+    <>
     <div className="c">
       <div className="c-bg"></div>
       <div className="c-wrapper">
@@ -60,6 +61,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <a className="salutation" href="#">Designed By - Nitin Kumar</a>
+      </>
   );
 };
 

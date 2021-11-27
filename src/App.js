@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Toggle from "./components/Toggle";
 import { ThemeContext } from "./context";
+import { Repulse } from "tsparticles/Options/Classes/Interactivity/Modes/Repulse";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -26,19 +27,27 @@ function App() {
       params={{
         particles: {
           number: {
-            value: 30,
+            value: 60,
             density: {
               enable: true,
-              value_area : 900
+              value_area : 800
             }
           },
           shape: {
             type : "square",
             stroke : {
               width : 6,
-              color : "#34d8ba"
+              color : "#fff"
             }
           }
+          // interactivity: {
+          //   events: {
+          //     onhover : {
+          //       enable : true,
+          //       mode : Repulse
+          //     }
+          //   }
+          // }
         },
       }}
     />

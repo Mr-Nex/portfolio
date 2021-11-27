@@ -1,12 +1,12 @@
 /*********** Projects **********/
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montagu+Slab:wght@200&family=Teko:wght@300&display=swap');
 .projects{
-  font-family: 'Caveat', cursive;
+  font-family: 'Acme', sans-serif;
     padding:50px;
   }
   
   .card{
     background: #24292d27;
+    border:1px solid #4b5663;
   }
   
   .card-img-top{
