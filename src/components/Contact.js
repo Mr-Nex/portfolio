@@ -56,7 +56,7 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button><a href="mailto:nitink386@gmail.com?subject=Saw Your Portfolio" class="item"><div class="description">Send</div></a></button>         
+            <button><a href="mailto:nitink386@gmail.com?subject=Saw Your Portfolio">Send</a></button>         
           </form>
         </div>
       </div>
